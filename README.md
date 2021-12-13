@@ -1,5 +1,7 @@
 # Gun Deaths in 2017 – CS465 Information Visualization Mini-Project
-# By Leili Manafi and John Cambefort
+## By Leili Manafi and John Cambefort
+
+**The visualization can be viewed [here](https://johncambefort.github.io/gundeaths/).**
 
 ### Description
 
