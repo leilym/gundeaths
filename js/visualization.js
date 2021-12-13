@@ -149,8 +149,9 @@ async function manageVisualization() {
       tooltip 
         .style("opacity", 1)
         .style("padding-left", "80px")
+        .style("padding-right", "80px")
         .style("margin", "auto")
-        .style("width", "200%")
+        .style("width", "80%")
         .html("State: " + d.state + "<br>" + 
               "Age: " + d.victim_age + "<br>" + 
               "Sex: " + d.victim_sex + "<br>" + 
