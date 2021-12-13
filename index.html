@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Project 05</title>
+      <script src="https://d3js.org/d3.v7.min.js"></script>
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/time-and-space" type="text/css"/> 
+      <link rel="stylesheet" href="style/main.css" /> 
+  </head>
+  <body style="background-color:black">
+
+    <main>
+      <div>
+        <h2 style="text-align: center; color: white"}>U.S. 2017 <span style="color:red"> Gun  </span>Victims (random sample of 500 individuals)</h2>
+      </div>
+      <div id="menu">
+        <input type="checkbox" id="relationship" name="relationship">
+        <label for="relationship">Relationship</label>
+        
+        <input type="checkbox" id="sex" name="sex">
+        <label for="sex">Victim Sex (M: blue, F:cream) </label>
+
+        <input type="checkbox" id="weapon" name="weapon">
+        <label for="weapon">Weapon</label>
+      </div>
+      <div style="color: white" id="vis"></div>
+      <p style="color: #FAC898"><b>Note</b>: Circle size is inversely correlated with victim age. A large circle represents a young victim, and vice versa.<br>
+       Hover over each circle to see more details about each victim :( </p>
+    </main>
+
+  </body>
+
+
+  <script src="js/visualization.js"></script>
+
+</html>
